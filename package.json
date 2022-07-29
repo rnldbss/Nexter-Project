@@ -1,0 +1,19 @@
+{
+  "name": "nexter-project",
+  "version": "1.0.0",
+  "description": "css grid experiment",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded sass/main.scss:css/style.css",
+    "sass-prod": "sass --no-source-map --style=compressed sass/scss:css/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nexter project"
+  },
+  "author": "ronaldBessa",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.0"
+  }
+}
